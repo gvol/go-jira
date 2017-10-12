@@ -48,6 +48,10 @@ You can build and install with [Go](https://golang.org/dl/):
 go get gopkg.in/Netflix-Skunkworks/go-jira.v1/cmd/jira
 ```
 
+For those unfamiliar with build go projects this will clone the
+repository into `$GOHOME` (which is `$HOME/go/` by default).  You can
+edit the files there and rerun `go get ...` to rebuild and install.
+
 ## v1 vs v0 changes
 
 ###### **Golang library import**
